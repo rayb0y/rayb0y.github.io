@@ -8,13 +8,13 @@ body {
 
 header {
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1.0em;
     padding-left: 38px;
     height: 15%;
 }
 
 .header-title {
-    font-size: 2.25em;
+    font-size: 1em;
     font-weight: 500;
     color: #4f6050;
 }
