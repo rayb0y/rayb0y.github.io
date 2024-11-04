@@ -99,7 +99,7 @@ header {
 .photo-container {
     margin-right: 4rem; /* 100px equivalent */
     width: 50%;
-    align-items: self-end;
+    align-items: end;
 }
 
 .photo-container img {
