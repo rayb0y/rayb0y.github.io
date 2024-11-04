@@ -101,14 +101,13 @@ header {
 }
 
 .photo-container img {
-    max-width: 28%;
+    max-width: 20%;
     height: auto;
-    border-radius: 30px;
 }
 
 .text-container {
     padding-top: 10rem; /* 50px equivalent */
-    max-width: 50%;
+    max-width: 70%;
     text-align: left;
     justify-content: center;
     align-items: center;
