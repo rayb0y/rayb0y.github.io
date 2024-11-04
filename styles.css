@@ -24,7 +24,7 @@ header {
     text-align: left;
     font-size: 30px;
     padding-left: 3.125rem; /* 50px equivalent */
-    height: 23%;
+    height: 25%;
     margin-bottom: 5px;
 }
 
@@ -97,12 +97,13 @@ header {
 }
 
 .photo-container {
-    margin-right: 6.25rem; /* 100px equivalent */
+    margin-right: 4rem; /* 100px equivalent */
     width: 50%;
+    align-items: self-end;
 }
 
 .photo-container img {
-    max-width: 20%;
+    max-width: 30%;
     height: auto;
     border-radius: 10px;
 }
