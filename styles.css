@@ -1,5 +1,5 @@
 html {
-    font-size: 16px; /* Base font size */
+    font-size: 40px; /* Base font size */
 }
 
 body {
@@ -50,29 +50,29 @@ header {
 #home {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: end;
     text-align: end;
     height: 100%;
     background-color: #8ab98c;
     transform: rotateY(0deg) translateZ(45vw);
     padding-right: 6.25rem; /* 100px equivalent */
-    color: #f5f7f5;
+    color: #495c49;
     font-weight: 400;
 }
 
 #home .heading {
-    margin: 0.625rem 0; /* 10px equivalent */
+    margin: 0.625rem 0.1; /* 10px equivalent */
     font-size: 5rem;
 }
 
 #home p {
-    margin: 0.625rem; /* 10px equivalent */
+    margin: 0.625rem 0; /* 10px equivalent */
     font-size: 2.5rem;
 }
 
 #home .disclaimer {
-    margin: 12.5rem 0; /* 200px equivalent */
+    margin: 5rem 0; /* 200px equivalent */
     font-size: 1.5rem;
     font-weight: 400;
     color: #252e25;
@@ -90,13 +90,13 @@ header {
 }
 
 .photo-container img {
-    max-width: 100%;
+    max-width: 28%;
     height: auto;
     border-radius: 30px;
 }
 
 .text-container {
-    padding-top: 3.125rem; /* 50px equivalent */
+    padding-top: 10rem; /* 50px equivalent */
     max-width: 50%;
     text-align: left;
     justify-content: center;
@@ -262,7 +262,7 @@ header {
 
 #film .header {
     width: 100%;
-    height: 43.75rem; /* 700px equivalent */
+    height: 44rem; /* 700px equivalent */
     overflow: hidden;
     position: relative;
     color: #9ba098;
@@ -279,7 +279,7 @@ header {
 }
 
 .ticker img {
-    height: 40.625rem; /* 650px equivalent */
+    height: 20rem; /* 650px equivalent */
     flex-shrink: 0;
     margin-right: 1.875rem; /* 30px equivalent */
     border-radius: 1.25rem; /* 20px equivalent */
