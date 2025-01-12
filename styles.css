@@ -20,6 +20,24 @@ body {
     width: auto;
 }
 
+header .view-scrollable {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header .view-scrollable:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
 header {
     text-align: left;
     font-size: 30px;
