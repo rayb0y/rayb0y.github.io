@@ -1,0 +1,170 @@
+/* General body styling for the scrollable layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+header .view-interactive {
+    font-size: 0.9rem;
+    color: #007bff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header .view-interactive:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Section styling */
+.section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    scroll-snap-align: none; /* Disable scroll snapping */
+}
+
+/* Home section */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo-container img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.text-container {
+    max-width: 600px;
+}
+
+.text-container .heading {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.text-container .disclaimer {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Work section */
+#work {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-left {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.work-right {
+    flex: 1;
+}
+
+.resume-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+}
+
+/* Film section */
+#film {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+}
+
+.ticker {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.ticker img {
+    max-height: 100px;
+    border-radius: 5px;
+}
+
+.film-left img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Contact section */
+#contact {
+    text-align: center;
+}
+
+.contact-container h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    display: inline-block;
+    margin: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.contact-info a:hover {
+    color: #007bff;
+}
+
+.contact-info .icon {
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Footer (if any) */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
