@@ -124,14 +124,27 @@ header .view-interactive:hover {
 }
 
 .ticker img {
-    max-height: 100px;
+    max-height: 80px; /* Reduce height of images in the ticker */
     border-radius: 5px;
 }
 
+.film-left {
+    display: flex;
+    flex-wrap: wrap; /* Wrap posters to the next line if needed */
+    gap: 10px; /* Space between posters */
+    justify-content: center;
+}
+
 .film-left img {
-    max-width: 100%;
+    width: 120px; /* Set fixed width for smaller posters */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 10px;
     margin-bottom: 10px;
+    transition: transform 0.3s ease; /* Add hover effect for interactivity */
+}
+
+.film-left img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
 /* Contact section */
