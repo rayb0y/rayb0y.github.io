@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amal Ray - Portfolio (Scrollable)</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Additional styles for scrollable version */
+      body {
+        overflow-y: auto; /* Enable vertical scrolling */
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+      }
+
+      .section {
+        scroll-snap-align: none; /* Disable snap alignment for scrollable layout */
+      }
+
+      #wheel {
+        scroll-behavior: auto; /* Default scrolling behavior */
+      }
+
+      header {
+        position: sticky; /* Keep header visible while scrolling */
+        top: 0;
+        background-color: white;
+        z-index: 1000;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p class="header-title">Amal Ray</p>
+      <a href="index.html" class="view-interactive">View Interactive Version</a>
+    </header>
+    <div id="content">
+      <section id="home" class="section">
+        <div class="container">
+          <div class="photo-container">
+            <img src="Images/Amal_Profile.jpg" />
+          </div>
+          <div class="text-container">
+            <p class="heading">Hi,</p>
+            <p class="heading">I'm Amal.</p>
+            <p>I am a consultant with experience in tech and design.</p>
+            <p class="disclaimer">
+              This is the scrollable version of my portfolio. You can also view
+              the interactive version by clicking the link in the header.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="container">
+          <div class="work-left">
+            <h2>Career Highlights</h2>
+            <h3>EY Global Delivery Services</h3>
+            <p>Current designation: Consultant</p>
+            <p><em>Aug 2022 – Present</em></p>
+            <p>
+              As a Consultant at EY, I specialize in designing and automating
+              efficient workflows that enhance productivity and user
+              experience...
+            </p>
+            <a
+              href="Documents/Amal Ray Resume.docx"
+              class="resume-button"
+              target="_blank"
+              >View My Full Resume</a
+            >
+          </div>
+          <div class="work-right">
+            <div class="image-grid">
+              <img src="Images/0311Work.png" alt="Image 1" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="film" class="section">
+        <div class="film-container">
+          <div class="header">
+            <div class="ticker">
+              <img src="Images/1.png" alt="Film Shot 1" />
+              <img src="Images/2.png" alt="Film Shot 2" />
+              <img src="Images/3.png" alt="Film Shot 3" />
+              <!-- Other images -->
+            </div>
+          </div>
+          <div class="body-container">
+            <div class="film-left">
+              <img src="Images/WakeUpPoster.jpg" alt="Film Poster 1" />
+              <img src="Images/WYSITDposter.jpg" alt="Film Poster 2" />
+              <img src="Images/everythingokposterjpg.jpg" alt="Film Poster 3" />
+            </div>
+            <div class="film-right">
+              <h3 class="exclamation">Written and Directed by Amal Ray</h3>
+              <h5 class="description">
+                As Coordinator of the KIIT Film Society...
+              </h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="contact-container">
+          <h2>Get in Touch</h2>
+          <div class="contact-info">
+            <a
+              href="https://www.linkedin.com/in/amal-ray-577a69175/"
+              target="_blank"
+            >
+              <img src="Images/LinkedIn.png" alt="LinkedIn" class="icon" />
+              <span>LinkedIn</span>
+            </a>
+            <a href="mailto:amalray.ray65@gmail.com">
+              <img src="Images/mail-227.png" alt="Email" class="icon" />
+              <span>amalray.ray65@gmail.com</span>
+            </a>
+            <a href="mailto:amalray@outlook.com">
+              <img src="Images/mail-227.png" alt="Email" class="icon" />
+              <span>amalray@outlook.com</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
