@@ -22,7 +22,7 @@ body {
 
 header {
     display: flex;
-    align-items: center; 
+    align-items: left; 
     justify-content:left; 
     padding: 10px 20px;
     background-color: #f8f8f8; 
