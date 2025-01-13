@@ -20,37 +20,38 @@ body {
     width: auto;
 }
 
-header .view-scrollable {
-    font-size: 1rem;
-    color: #007bff;
-    text-decoration: none;
-    margin-left: 20px;
-    padding: 5px 10px;
-    border: 1px solid #007bff;
-    border-radius: 4px;
-    background-color: #f8f9fa;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-header .view-scrollable:hover {
-    background-color: #007bff;
-    color: #fff;
-}
-
-
 header {
-    text-align: left;
-    font-size: 30px;
-    padding-left: 3.125rem; /* 50px equivalent */
-    height: 28%;
-    margin-bottom: 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 20px;
+    background-color: #f8f8f8; 
+    border-bottom: 1px solid #ddd; 
 }
 
 .header-title {
-    font-size: 1em;
-    font-weight: 500;
-    color: #4f6050;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
 }
+
+.view-scrollable {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #007BFF; /* Button color */
+    padding: 8px 12px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.view-scrollable:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
 
 .wheel {
     position: absolute;
