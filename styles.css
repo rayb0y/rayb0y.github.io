@@ -56,6 +56,7 @@ header {
 
 
 .wheel {
+    padding-top: 60px;
     position: absolute;
     width: 95vw;
     height: 80vh;
