@@ -30,7 +30,7 @@ header {
 }
 
 .header-title {
-    font-size: 3em;
+    font-size: 16px;
     font-weight: 500;
     color: #4f6050;
     padding-right: 20px;
@@ -38,8 +38,8 @@ header {
 
 .view-scrollable {
     text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 400;
     color: #4a5249; /* Button color */
     padding: 8px 12px;
     border: 1px solid #33422d;
